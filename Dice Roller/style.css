@@ -1,0 +1,39 @@
+#container{
+    font-family: Arial, sans-serif;
+    text-align: center; /*Ortaya Hizalama */
+    font-size: 2rem;
+    font-weight:bold;  /*Yazı Kalınlığı*/
+}
+
+button{
+    font-size: 1.5rem;
+    padding:10px 15px; /*Buton İçi boşluk (yukarı - aşağı)*/
+    border-radius:10px; /*Kenarları yumuşatır*/
+    border:none; /*Kenarlık yok*/
+    background-color:rgb(119, 206, 228);
+    color:rgb(210, 101, 101);
+    font-weight: bold;
+    cursor:pointer; /*Mouse gelince el şekline dönüşür*/
+}
+
+button:hover{ /*buton üzerine gelince*/
+    background-color:hsl(210,100%,60%);
+}
+
+button:active{ /*Butona tıklama anı*/
+    background-color: rgba(113, 161, 228, 0.767);
+}
+
+input{
+    font-size:2rem;
+    width:150px; /*kutu genişliği*/
+    text-align:center;
+}
+
+#diceResult{
+    margin: 25px;
+}
+#diceImages img{
+    width: 150px;
+    margin: 5px; /*Görsel arası boşluk*/
+}
